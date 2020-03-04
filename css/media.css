@@ -48,6 +48,10 @@
     line-height: 1.78;
   }
 
+  .footer_contact {
+    display: block;
+  }
+
   .footer_end {
     display: block;
   }
