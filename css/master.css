@@ -1,0 +1,305 @@
+h2 {
+  color: #385680;
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 3rem;
+}
+
+
+/* social navigation
+_____________________________________________________________________________*/
+.social-nav {
+  text-align: right;
+  margin: 32px 7% 0;
+}
+
+.social-icon {
+  margin: 0 30px;
+}
+
+/* navigation
+_____________________________________________________________________________*/
+.g_nav {
+  padding: 4px 5% 16px;
+}
+
+.header-logo {
+  width: 400px;
+}
+
+.mobile-logo {
+  display: none;
+}
+
+.g_nav_bar {
+  font-weight: 500;
+  margin-left: auto;
+}
+
+.g_nav_item {
+  border-right: 1px solid #ccc;
+  margin: 0;
+  padding: 0 24px;
+}
+
+.g_nav_item a {
+  padding: 0;
+}
+
+.first_child {
+  border-left: 1px solid #ccc;
+}
+
+.g_nav_item::after {
+  background: linear-gradient(to right, #2E86C1 0%, #AED6F1 100%);
+  content: '';
+  display: block;
+  height: 2px;
+  transition: 0.1s;
+  width: 0;
+  position: relative;
+  bottom: -8px;
+}
+
+.g_nav_item:hover::after {
+  width: 100%;
+}
+
+/* main banner
+_____________________________________________________________________________*/
+/* .brand_heading {
+  font-family: 'Sorts Mill Goudy', serif;
+} */
+.main_banner {
+  background: url('../assets/img/m_banner.jpg') no-repeat center;
+  background-size: cover;
+  padding: 10% 5%;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* welcome
+_____________________________________________________________________________*/
+.welcome_section {
+  margin: 144px auto;
+  max-width: 960px;
+  width: 80%;
+}
+
+.welcome_title {
+  position: relative;
+  right: 96px;
+  bottom: 40px;
+  z-index: 1;
+}
+
+.welcome_section_text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+.w-bg-rect {
+  background: #FEF3DF;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  transform: translate3d(-36px, -450px, -135px);
+}
+
+/* news
+_____________________________________________________________________________*/
+
+.news_ul {
+  margin: -5px 0;
+  list-style-type: none;
+}
+
+.news_li_block {
+  align-items: flex-start;
+  display: flex;
+  padding: 0;
+}
+
+.news_li_head {
+  align-items: center;
+  display: flex;
+}
+
+.news_li_date {
+  font-weight: 700;
+  margin-right: 3rem;
+}
+
+.news_li_label {
+  align-items: center;
+  background-color: #385680;
+  border-radius: 4px;
+  color: #fff;
+  display: flex;
+  font-size: 62.5%;
+  font-weight: 700;
+  justify-content: center;
+  min-height: 32px;
+  min-width: 87px;
+  padding: 0;
+}
+
+.news_li_desc {
+  color: #545454;
+  line-height: 1;
+  margin-left: 3rem;
+  padding-top: .15rem;
+}
+
+.news_li_desc a {
+  color: #212529;
+}
+
+
+/* appointment
+_____________________________________________________________________________*/
+.appointment {
+  background: url('../assets/img/im_sec2.jpg') no-repeat bottom;
+  background-size: cover;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  margin: 100px 0;
+}
+
+.appointment_heading {
+  position: relative;
+  bottom: 96px;
+  margin: 0;
+}
+
+.appointment_heading_desc {
+  position: relative;
+  bottom: 104px;
+}
+
+.phone_icon {
+  margin: 0 8px;
+  position: relative;
+  bottom: 2px;
+}
+
+.phone_text {
+  font-size: 32px;
+}
+
+/* location
+_____________________________________________________________________________*/
+
+.location {
+  text-align: center;
+}
+
+
+/* faq
+_____________________________________________________________________________*/
+.faq {
+  margin: 100px 0;
+  background-color: #fff;
+}
+
+.faq_heading {
+  text-align: center;
+}
+
+.faq .faq-list {
+  padding: 0;
+  list-style: none;
+}
+
+.faq .faq-list li {
+  padding: 0 0 20px 25px;
+}
+
+.faq .faq-list a {
+  display: block;
+  position: relative;
+  font-size: 18px;
+  font-weight: 600;
+  color: #385680;
+}
+
+.faq .faq-list i {
+  font-size: 18px;
+  position: absolute;
+  left: -25px;
+  top: 6px;
+}
+
+.faq .faq-list p {
+  padding-top: 5px;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.faq .faq-list a.collapsed {
+  color: #767676;
+}
+
+.faq .faq-list a.collapsed:hover {
+  color: #385680;
+}
+
+.faq .faq-list a.collapsed i::before {
+  content: "\f078";
+}
+
+
+/* footer
+_____________________________________________________________________________*/
+.footer_contact {
+  border-top: 1px solid #CCC;
+  border-bottom: 1px solid #CCC;
+  display: flex;
+  align-items: center;
+  padding: 2.5rem 8%;
+}
+
+.footer_contact .title {
+  font-family: 'Sorts Mill Goudy', serif;
+  letter-spacing: .1em;
+}
+
+.footer_contact .mail {
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  margin-left: auto;
+}
+
+.footer_link {
+  color: #385680;
+  transition: background .5s, color .5s;
+  display: block;
+}
+
+.footer_link:hover {
+  background: #385680;
+  color: #FFF;
+  text-decoration: none;
+}
+
+.footer_end {
+  color: #767676;
+  text-align: center;
+  margin: 50px;
+  display: flex;
+  flex-direction: row-reverse;
+  font-size: .9rem;
+}
+
+.socials {
+  margin-left: auto;
+}
+
+.copyright {
+  font-size: .7rem;
+}
+
+.footer_icon {
+  color: #385680;
+  padding: 0 16px;
+}
