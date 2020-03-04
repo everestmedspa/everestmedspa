@@ -18,7 +18,12 @@
   }
 
   .news {
-    padding: 45px 0 40px;
+    margin: 45px 0 145px;
+  }
+
+  .news_ul {
+    padding: 0;
+    margin: 0;
   }
 
   .news_li_block {
@@ -32,20 +37,17 @@
   }
 
   .news_li_date {
-    font-size: 1.4rem;
     margin-bottom: 5px;
     margin-right: 0;
   }
 
   .news_li_label {
-    font-size: 1rem;
     min-height: 25px;
     padding: .5em;
   }
 
   .news_li_desc {
-    font-size: 1.4rem;
-    line-height: 1.78;
+    line-height: 2;
   }
 
   .footer_contact {

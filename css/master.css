@@ -110,24 +110,23 @@ _____________________________________________________________________________*/
 _____________________________________________________________________________*/
 
 .news_ul {
-  margin: -5px 0;
   list-style-type: none;
 }
 
 .news_li_block {
   align-items: flex-start;
   display: flex;
-  padding: 0;
 }
 
 .news_li_head {
   align-items: center;
   display: flex;
+  padding: 5px 0 0;
 }
 
 .news_li_date {
   font-weight: 700;
-  margin-right: 3rem;
+  margin-right: 2.5rem;
 }
 
 .news_li_label {
@@ -146,9 +145,7 @@ _____________________________________________________________________________*/
 
 .news_li_desc {
   color: #545454;
-  line-height: 1;
-  margin-left: 3rem;
-  padding-top: .15rem;
+  margin-left: 7%;
 }
 
 .news_li_desc a {
